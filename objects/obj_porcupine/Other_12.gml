@@ -19,6 +19,6 @@ if(speed_ == 0){
 	state_ = porcupine.idle;
 }
 
-if(room == rm_battle){
+if(global.is_in_battle){
 	porcupine_attack();
 }

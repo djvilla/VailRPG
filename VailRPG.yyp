@@ -2034,25 +2034,6 @@
             }
         },
         {
-            "Key": "d485c2d8-3342-4c59-b77c-d4c586cf4236",
-            "Value": {
-                "id": "8e9e7605-6069-4a43-9054-eef1b1e148c6",
-                "modelName": "GMResourceInfo",
-                "mvc": "1.0",
-                "configDeltaFiles": [
-                    
-                ],
-                "configDeltas": [
-                    
-                ],
-                "resourceCreationConfigs": [
-                    "default"
-                ],
-                "resourcePath": "objects\/obj_basic_enemy\/obj_basic_enemy.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "d5124c65-6737-4501-b8a9-61715a10ee10",
             "Value": {
                 "id": "f4b24c39-bce3-4713-9a56-9c291a91a853",

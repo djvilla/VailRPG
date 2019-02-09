@@ -15,7 +15,7 @@ if(_x_input == 0 && _y_input == 0){
 	add_movement_maxspeed(_input_direction, acceleration_, max_speed_);
 }
 
-if(_attack_input == true && room == rm_battle){
+if(_attack_input == true && global.is_in_battle){
 	image_index = 0;
 	state_ = player.attack;
 }

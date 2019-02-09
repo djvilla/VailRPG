@@ -1,7 +1,7 @@
 /// @desc If player collides with an enemy
-if(room != rm_battle){
+if(!global.is_in_battle){
 	//Go to battle room
-	var _battle_room = rm_battle;
+	var _battle_room = battle_room_;
 	var _fade_color = c_white;
 	var _fade_speed = 0.025;
 	var _battle_location_x = 88

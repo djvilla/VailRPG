@@ -13,7 +13,7 @@ enum grass_enemy {
 enemies_[map_room.grass, grass_enemy.porcupine] = obj_porcupine;
 
 
-if(room == rm_battle){
+if(global.is_in_battle){
 	instance_create_layer(x, y, "Instances", obj_player.enemy_collided_);
 }else{
 	instance_create_layer(x, y, "Instances", enemies_[map_room.grass, grass_enemy.porcupine]);

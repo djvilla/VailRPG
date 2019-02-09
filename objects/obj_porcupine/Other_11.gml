@@ -9,7 +9,7 @@ if(alarm[1] <= 0){
 	state_ = porcupine.move;
 	direction_ = random(360);
 }
-if(room == rm_battle){
+if(global.is_in_battle){
 	porcupine_attack();
 }
 

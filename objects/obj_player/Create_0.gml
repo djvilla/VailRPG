@@ -52,3 +52,6 @@ player_stats();
 
 //Collided id for fadeout
 enemy_collided_id_ = noone;
+
+//Battle room to teleport too
+battle_room_ = rm_battle;
