@@ -305,6 +305,25 @@
             }
         },
         {
+            "Key": "1869b64b-3b20-4115-88ab-2e252968ea60",
+            "Value": {
+                "id": "668440ff-6406-4eb3-9d31-cffa95ce1ffd",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/obj_npc\/obj_npc.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "186f8c14-b95e-4314-a0c4-030eaccaee3d",
             "Value": {
                 "id": "6a565fe3-a913-4e15-9a15-f955ea6342f3",
@@ -567,6 +586,25 @@
                     "default"
                 ],
                 "resourcePath": "sprites\/spr_player_swing_down\/spr_player_swing_down.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "36402e2a-adfa-49f9-8d4a-a29418592035",
+            "Value": {
+                "id": "daff83db-f3dc-4cce-bb96-69837f65a5d4",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/spr_house_outside\/spr_house_outside.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -2145,6 +2183,25 @@
                 ],
                 "resourcePath": "scripts\/fadeout\/fadeout.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "da1c5d9d-4960-403f-a994-57161f10cea8",
+            "Value": {
+                "id": "11c8c6d1-aea8-45d7-b0bc-53955987dbcc",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "rooms\/rm_grass_village_0\/rm_grass_village_0.yy",
+                "resourceType": "GMRoom"
             }
         },
         {

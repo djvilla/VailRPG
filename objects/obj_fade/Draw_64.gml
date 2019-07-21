@@ -14,7 +14,7 @@ if(room != target_){
 			obj_player.enemy_collided_id_ = noone;
 		}
 		//change players position and sprite back
-		if(global.is_in_battle){
+		if(instance_exists(obj_battle)){
 			with(obj_player){
 				sprite_index = sprite_[player.move, last_direction_];
 				image_index = 0;
