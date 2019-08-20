@@ -9,10 +9,10 @@ overworld_song_ = a_music;
 audio_play_sound(overworld_song_, 10, true);
 
 
-if(window_get_fullscreen()){
-	window_set_fullscreen(false);
-	//window_set_fullscreen(true);
-}else {
-	window_set_fullscreen(true);
+//if(window_get_fullscreen()){
 	//window_set_fullscreen(false);
-}
+	//window_set_fullscreen(true);
+//}else {
+//	window_set_fullscreen(true);
+	//window_set_fullscreen(false);
+//}

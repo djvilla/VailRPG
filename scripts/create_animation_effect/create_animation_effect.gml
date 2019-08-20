@@ -16,7 +16,10 @@ _effect.sprite_index = _sprite;
 _effect.image_speed = _image_speed;
 
 if(_has_depth){
-	_effect.depth = -_y;	
+	//_effect.depth = -_y;	//Old way of calculating depth
+	with(_effect){
+		addtoo_depthgrid();
+	}
 }
 
 return _effect;

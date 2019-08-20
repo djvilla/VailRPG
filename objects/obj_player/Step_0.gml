@@ -1,8 +1,9 @@
 /// @desc at every state
-depth = -y;
+depth = -1;
 
 //Stops movement In pause menus and room transitions
-if(room != rm_pause && !instance_exists(obj_fade)){
+//if(room != rm_pause && !instance_exists(obj_fade)){
+if(!instance_exists(obj_fade)){
 	event_user(state_);
 }else{
 	image_index = 0;	

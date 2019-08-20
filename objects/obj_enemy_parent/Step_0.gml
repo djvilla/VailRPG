@@ -1,4 +1,4 @@
-depth = -y;
+//depth = -y;
 /*
 if(health <= 0){
 	instance_destroy();
