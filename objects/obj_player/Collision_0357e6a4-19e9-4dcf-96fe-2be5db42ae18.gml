@@ -17,7 +17,7 @@ if(!global.is_in_battle){
 	last_facing_sprite_ = sprite_[player.move, direction_facing_];
 	
 	audio_stop_all();
-	audio_play_sound(a_battle_transtion, 10, false);
+	audio_play_sound(a_battle_transtion, 5, false);
 
 	fadeout(_battle_room, _fade_color, _fade_speed, _battle_location_x, _battle_location_y);
 	

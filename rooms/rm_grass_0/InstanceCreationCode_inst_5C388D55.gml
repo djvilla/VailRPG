@@ -1,4 +1,4 @@
 ///Initalize
-target_ = rm_grass_1;
-xx_ = 40;
-yy_ = 408;
+target_ = rm_grass_village_0;
+xx_ = 616;
+yy_ = 264;

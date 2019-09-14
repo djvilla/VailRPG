@@ -1,5 +1,5 @@
 /// @desc at every state
-depth = -1;
+//depth = -1;
 
 //Stops movement In pause menus and room transitions
 //if(room != rm_pause && !instance_exists(obj_fade)){

@@ -15,11 +15,4 @@ var _effect = instance_create_layer(_x, _y, "Effects", obj_animation_effect);
 _effect.sprite_index = _sprite;
 _effect.image_speed = _image_speed;
 
-if(_has_depth){
-	//_effect.depth = -_y;	//Old way of calculating depth
-	with(_effect){
-		addtoo_depthgrid();
-	}
-}
-
 return _effect;
