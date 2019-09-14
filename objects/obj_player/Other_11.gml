@@ -8,7 +8,7 @@ if(animate_hit_frame(1)){
 	var _damage = 1;
 	var _knockback = 8;
 	var _hitbox = create_hitbox(spr_sword_hitbox, x, y, _angle, _life, _target_array, _damage, _knockback);
-	audio_play_sound(a_swipe, 8, false);
+	sound_control(a_swipe);
 	
 	//Align the up frame and down frame hitbox better
 	switch direction_facing_{

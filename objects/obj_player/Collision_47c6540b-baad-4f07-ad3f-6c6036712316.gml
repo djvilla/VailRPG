@@ -6,6 +6,6 @@ if(hurtbox_entity_can_be_hit_by(other)){
 	var _direction = point_direction(other.x, other.y, x, y);
 	set_movement(_direction, other.knockback_);
 	state_ = player.hit;
-	audio_play_sound(a_hurt, 6, false);
+	sound_control(a_hurt);
 	//event_user(state_);
 }

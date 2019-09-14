@@ -6,7 +6,7 @@ if(animate_hit_frame(1)){
 	var _knockback = 4;
 	var _life = 1;
 	create_hitbox(spr_porcupine_hitbox, x, y-8, 0, _life, [obj_player], _damage, _knockback);
-	audio_play_sound(a_porcupine_attack, 5, false);
+	sound_control(a_porcupine_attack);
 }
 
 //End Attack State

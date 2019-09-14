@@ -183,6 +183,14 @@
             }
         },
         {
+            "Key": "1ff3e9da-4721-4876-ae56-900f73b7fdfb",
+            "Value": {
+                "id": "3340a6ca-5037-4fce-a1e6-9c69cadfbd71",
+                "resourcePath": "scripts\\sound_control\\sound_control.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "2216f493-3483-417a-8330-82523145dee3",
             "Value": {
                 "id": "efef45d5-6a1c-4e19-bcba-1ddc491e44c0",
@@ -1143,6 +1151,14 @@
             }
         },
         {
+            "Key": "f52963f3-85b5-4d2d-be58-b645ad47adcb",
+            "Value": {
+                "id": "d4b319ee-291e-495e-9751-1cf9fb33540b",
+                "resourcePath": "scripts\\music_control\\music_control.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "f80a6fc1-b731-4dfa-897e-3bf6896e448d",
             "Value": {
                 "id": "71bb9352-6cc6-4429-b31c-a8b239081454",
@@ -1172,6 +1188,14 @@
                 "id": "e2517688-df67-4a92-851c-0a56eac46c85",
                 "resourcePath": "objects\/obj_porcupine\/obj_porcupine.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "fa5d21d2-c2ef-4e17-b3e3-17259066ee77",
+            "Value": {
+                "id": "da67e548-bf9e-4420-9a5d-d01a2348fd20",
+                "resourcePath": "views\\fa5d21d2-c2ef-4e17-b3e3-17259066ee77.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -1250,7 +1274,9 @@
         "14ce36a1-d624-4bd5-bd42-6a56f75cd19c",
         "115e825b-8176-42f1-8861-5599d850a8bb",
         "23c9cd9a-634a-4d97-b1cd-0cf0fffea321",
-        "795cd10e-ef30-40db-88c9-5fac24c03b1a"
+        "795cd10e-ef30-40db-88c9-5fac24c03b1a",
+        "1ff3e9da-4721-4876-ae56-900f73b7fdfb",
+        "f52963f3-85b5-4d2d-be58-b645ad47adcb"
     ],
     "tutorial": ""
 }

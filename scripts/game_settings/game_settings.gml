@@ -1,3 +1,5 @@
 //Volume Settings
-global.volume = 10;
-global.pitch = 10;
+//Max is 1
+global.music_volume = 1;
+global.sound_volume = 1;
+global.pitch = 1;
