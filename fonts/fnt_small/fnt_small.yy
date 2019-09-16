@@ -6,7 +6,7 @@
     "AntiAlias": 0,
     "TTFName": "",
     "ascenderOffset": 0,
-    "bold": true,
+    "bold": false,
     "charset": 0,
     "first": 0,
     "fontName": "Cambria",
@@ -1456,7 +1456,7 @@
     "hinting": 0,
     "includeTTF": false,
     "interpreter": 0,
-    "italic": true,
+    "italic": false,
     "kerningPairs": [
         {
             "id": "fdd612ab-d369-4267-bd4a-663136cc79ff",
@@ -9658,6 +9658,6 @@
     ],
     "sampleText": "abcdef ABCDEF\\u000a0123456789 .,<>\"'&!?\\u000athe quick brown fox jumps over the lazy dog\\u000aTHE QUICK BROWN FOX JUMPS OVER THE LAZY DOG\\u000a\\u000aDefault Character(9647) ▯",
     "size": 16,
-    "styleName": "Bold Italic",
+    "styleName": "Regular",
     "textureGroupId": "1225f6b0-ac20-43bd-a82e-be73fa0b6f4f"
 }

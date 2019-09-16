@@ -162,7 +162,7 @@
             "Key": "16d9746d-1598-4651-8004-0241eb895d22",
             "Value": {
                 "id": "d60a46be-949e-4415-b42e-66bbcbe76e93",
-                "resourcePath": "fonts\\fnt_text_12\\fnt_text_12.yy",
+                "resourcePath": "fonts\\fnt_text_10\\fnt_text_10.yy",
                 "resourceType": "GMFont"
             }
         },
@@ -423,10 +423,26 @@
             }
         },
         {
+            "Key": "513d9f5e-7582-4d3a-a7f5-ec7289684728",
+            "Value": {
+                "id": "43accb38-a5a2-455f-93bd-3eb6ead32392",
+                "resourcePath": "views\\513d9f5e-7582-4d3a-a7f5-ec7289684728.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "53470bd1-e4af-4114-9377-38432e6833eb",
             "Value": {
                 "id": "60761444-2ce5-4ffe-a28e-6c08d09bc1d3",
                 "resourcePath": "views\/53470bd1-e4af-4114-9377-38432e6833eb.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "54326517-5df6-48df-9d18-21d8f4d3f982",
+            "Value": {
+                "id": "97f27841-0154-4f15-bb98-bf72ad468bdc",
+                "resourcePath": "views\\54326517-5df6-48df-9d18-21d8f4d3f982.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -1039,6 +1055,14 @@
             }
         },
         {
+            "Key": "c5729360-73d0-467d-86c3-8255b939dd5a",
+            "Value": {
+                "id": "40b91d50-db0b-419b-8931-cb4b97587942",
+                "resourcePath": "sprites\\spr_textbox\\spr_textbox.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "c70512d7-abb0-4a8b-9d27-465fc0f3a292",
             "Value": {
                 "id": "dbb307f1-0577-46da-9aa3-c5fc1e90145b",
@@ -1271,6 +1295,14 @@
             }
         },
         {
+            "Key": "f4ec1d60-57c5-4d96-9f29-1b867cc10409",
+            "Value": {
+                "id": "4a082ca2-6ec9-4c8f-8f53-4c00812bff89",
+                "resourcePath": "scripts\\draw_nineslice\\draw_nineslice.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "f52963f3-85b5-4d2d-be58-b645ad47adcb",
             "Value": {
                 "id": "d4b319ee-291e-495e-9751-1cf9fb33540b",
@@ -1396,7 +1428,8 @@
         "23c9cd9a-634a-4d97-b1cd-0cf0fffea321",
         "795cd10e-ef30-40db-88c9-5fac24c03b1a",
         "1ff3e9da-4721-4876-ae56-900f73b7fdfb",
-        "f52963f3-85b5-4d2d-be58-b645ad47adcb"
+        "f52963f3-85b5-4d2d-be58-b645ad47adcb",
+        "f4ec1d60-57c5-4d96-9f29-1b867cc10409"
     ],
     "tutorial": ""
 }

@@ -7,7 +7,7 @@ namebox_ = spr_test_namebox;
 
 //Buffers
 x_buffer_ = 12;
-y_buffer_ = 8;
+y_buffer_ = 3;
 
 //Get each sprite width and height for calculation
 box_width_ = sprite_get_width(box_);
@@ -19,10 +19,10 @@ namebox_height_ = sprite_get_height(namebox_);
 text_max_width_ = box_width_ - (2 * x_buffer_);
 
 //Place the boxes near the bottom
-portrait_x_ = (global.gameWidth - box_width_ - portrait_width_) * 0.5;
-portrait_y_ = (global.gameHeight * 0.98) - portrait_height_;
-box_x_ = portrait_x_ + portrait_width_;
-box_y_ = portrait_y_;
+box_x_ = global.gameWidth - box_width_ - 16; //16 is a random number to align box
+box_y_ = (global.gameHeight * 0.98) - box_height_;
+portrait_x_ = box_x_ * 15; //15 is a random number to align portrait
+portrait_y_ = box_y_ - portrait_height_;
 namebox_x_ = box_x_;
 namebox_y_ = box_y_ - namebox_height_;
 
@@ -45,7 +45,7 @@ name_ = "name";
 //Text color and font
 text_color_ = c_black;
 text_name_color = c_black;
-text_font_ = fnt_text_12;
+text_font_ = fnt_text_10;
 
 //Get size of current font
 draw_set_font(text_font_);
