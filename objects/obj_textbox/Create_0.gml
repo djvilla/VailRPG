@@ -34,13 +34,19 @@ name_text_y_ = namebox_y_ + (namebox_height_/2);
 
 //Person who is talking
 portrait_index_ = 0;
+//Counter for typewriter text
+counter_ = 0;
+//Pause typewriting variable
+pause_ = false;
 
 //Text for dialog
-text_[0] = "This is a test string. This is a test string. This is a test string. This is a test string. This is a test string. This is a test string. This is a test string. This is a test string.";
+text_[0] = "This is a test string! This is a test string! This is a test string! This is a test string, This is a test string, This is a test string.";
 text_[1] = "Second page of the dialog box";
 page_ = 0; //Keeps track of which page the dialog box is in
 //Name of the person talking
 name_ = "name";
+//Voice of the person talking
+voice_ = snd_voice1;
 
 //Text color and font
 text_color_ = c_black;
@@ -50,3 +56,6 @@ text_font_ = fnt_text_10;
 //Get size of current font
 draw_set_font(text_font_);
 text_height_ = string_height("M");
+
+//Run user event at the start
+event_perform(ev_other, ev_user1);
