@@ -1,6 +1,6 @@
 # VailRPG :game_die:
 
-This was a Turnbased RPG framework that I attempted to create in GameMaker Studio 2. So far I had transtitions between rooms and a save point.
+This was a ARPG framework that I attempted to create in GameMaker Studio 2. So far I had transtitions between rooms and combat against an enemy with some death effects.
 Other then that there wasn't too much else built into this. This project was mostly just a practice to see how GameMaker Studio worked.
 
 ## How to run
