@@ -8,3 +8,6 @@ You need Game Maker Studio 2 to compile and run this project.
 
 ## Version
 Built in GameMaker Studio 2 Version 2.2.3.436
+
+## Credits
+Inspired by tutorials the ARPG tutorial from [HeartBeast](https://www.youtube.com/channel/UCrHQNOyU1q6BFEfkNq2CYMA).
